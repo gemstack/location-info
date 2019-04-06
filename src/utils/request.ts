@@ -1,3 +1,3 @@
-import axios from 'axios';
+import axios from 'axios'
 
-export const getRequests = url => axios.get(url);
+export const getRequests = url => axios.get(url)
