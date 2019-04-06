@@ -1,4 +1,4 @@
-import { getRequests } from './utils/request'
+import request from './utils/request'
 
 const OPEN_WEATHER_API_KEY = process.env.OPEN_WEATHER_API_KEY
 
@@ -57,7 +57,7 @@ const dataParser = (data: ResponseData): ParsedData => ({
 const getWeatherDataForLocation = async (location: string): Promise<ParsedData | ErrorData> => {
   const currentWeatherUrl = getURLForCurrentWeather(location)
   try {
-    const response = await getRequests(currentWeatherUrl)
+    const response = await request.get(currentWeatherUrl)
     const data = dataParser(response.data)
     return data
   } catch (error) {
