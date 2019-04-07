@@ -7,10 +7,6 @@
     "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.com/deqode/test-tasks/nodejs/location-info-app.git"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
