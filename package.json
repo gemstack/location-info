@@ -1,0 +1,20 @@
+{
+  "name": "location-info-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/deqode/test-tasks/nodejs/location-info-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}
