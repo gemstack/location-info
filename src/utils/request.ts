@@ -1,3 +1,7 @@
 import axios from 'axios'
 
-export const getRequests = url => axios.get(url)
+const get = url => axios.get(url)
+
+export default {
+  get,
+}
